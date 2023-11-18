@@ -6,13 +6,14 @@
 #wholeGameContainer {
   display: flex;
   flex-direction: column;
+  margin: 100px auto;
+  align-items: center;
+  gap: 40px;
 }
 header {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 20px;
-  margin: 100px auto;
 }
 #gameTitle {
   font-size: 42px;
@@ -22,4 +23,18 @@ header {
 #gameInstruction {
   font-size: 20px;
   text-align: center;
+}
+#gameContent {
+  display: flex;
+  gap: 10px;
+}
+#memoryCardContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.gameResult {
+  background-color: white;
+  padding: 15px;
+  font-size: 20px;
 }
